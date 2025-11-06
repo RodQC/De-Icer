@@ -4,3 +4,37 @@
     --card:#111731; --card-2:#0d142c; --line:rgba(255,255,255,.10);
 }
 
+
+/* Header */
+
+.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: saturate(140%) blur(6px);
+    background:rgba(10,16,32,.65);
+    border-bottom: 1px solid var(--line);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+.top-links a{
+    color: var(--ink);
+    text-decoration: none;
+    margin-left: 16px;
+}
+.top-links a.btn{
+    margin-left: 10px;
+}
