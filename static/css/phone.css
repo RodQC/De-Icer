@@ -13,13 +13,13 @@ html,body {
     height: 100%;
     margin: 0%;
 }
-
+/* 
 body{
-    background-image: url("../images/IMG_1895.jpg"); /* Makes the background the image */
-    background-repeat: no-repeat;       /* Prevents image repetition */
-    background-attachment: fixed;       /* Fixes the background image */
-    background-size: cover;         /* Scale the image to cover the entire viewport */
-    background-position: center center;     /* Center the image horizontally and vertically */
+    background-image: url("../images/IMG_1895.jpg"); /* Makes the background the image 
+    background-repeat: no-repeat;       /* Prevents image repetition 
+    background-attachment: fixed;       /* Fixes the background image 
+    background-size: cover;         /* Scale the image to cover the entire viewport 
+    background-position: center center;     /* Center the image horizontally and vertically 
     position: absolute;
     width: 467px;
     height: 1014px;
@@ -28,6 +28,8 @@ body{
     border-radius: 33px;
     z-index: 1;
 }
+*/
+
 
 /* image 1 */
 .image_container{
