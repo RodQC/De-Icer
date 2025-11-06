@@ -1,41 +1,6 @@
-/* IMG_1895 1
-
-position: absolute;
-width: 467px;
-height: 1014px;
-left: -14px;
-top: -12px;
-
-background: url(IMG_1895.png);
-border-radius: 33px; */
-
-html,body {
-    height: 100%;
-    margin: 0%;
+:root{
+    --bg:#0a1020; --ink:#eef3ff; --ink-dim:#c6cfdf;
+    --brand:#3aaef8; --brand-dark:#1f8dd6;
+    --card:#111731; --card-2:#0d142c; --line:rgba(255,255,255,.10);
 }
-/* 
-body{
-    background-image: url("../images/IMG_1895.jpg"); /* Makes the background the image 
-    background-repeat: no-repeat;       /* Prevents image repetition 
-    background-attachment: fixed;       /* Fixes the background image 
-    background-size: cover;         /* Scale the image to cover the entire viewport 
-    background-position: center center;     /* Center the image horizontally and vertically 
-    position: absolute;
-    width: 467px;
-    height: 1014px;
-    left: -14px;
-    top: -12px;
-    border-radius: 33px;
-    z-index: 1;
-}
-*/
 
-
-/* image 1 */
-.image_container{
-position: absolute;
-left: 280px;
-top: 530px;
-z-index: 2;
-
-}
