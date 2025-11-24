@@ -76,10 +76,38 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--bg);colo
     border-radius: 22px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
 }
+
+/* Tabs + Panels */
 .tabs button{
-    padding:10px 18px;
-    border:none;background:none;
-    border-bottom:2px solid transparent;
-    font-weight:600;
-    color:var(--ink-dim);cursor:pointer;
+    padding: 10px 18px;
+    border: none;background:none;
+    border-bottom: 2px solid transparent;
+    font-weight: 600;
+    color: var(--ink-dim);cursor:pointer;
+}
+
+.tabs{
+    display: flex;
+    gap: 8px;
+    margin: 26px 0 10px;
+    border-bottom:1px solid(--line); 
+    flex-wrap: wrap;
+}
+
+.tabs [role="tab"]{
+    padding: 10px 18px;
+    border: none;
+    background: #10173a;
+    border-bottom: 2px solid transparent;
+    color: var(--ink-dim);
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tabs [aria-selected="true"]{
+    background: #16214a;
+    border-color: var(--brand);
+    color: var(--ink);
+    font-weight: 600;
 }
