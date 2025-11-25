@@ -11,8 +11,7 @@
 }
 
 body{
-    margin:0;
-    font-family:'Inter',system-ui,sans-serif;
+    font-family:'Inter',system-ui, sans-serif;
     background: radial-gradient(circle at top, #171e3f, #050714 55%);
     color:var(--text);
 }
@@ -30,6 +29,7 @@ body{
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
 }
+
 .nav-left{
     display: flex;
     align-items: center;
@@ -64,6 +64,7 @@ body{
     min-height: 60vh;
     overflow: hidden;
 }
+
 .background{
     position: absolute;
     inset: 0;
@@ -84,13 +85,16 @@ body{
     display: flex;
     gap: 12px;
     margin-top: 16px;
+   
     flex-wrap: wrap;
 }
+
+/* For Phone Version
 .hero-phone{
     flex-shrink: 0;
     width: 100;
     max-width: 360px;
-}
+} */
 
 .hero-video{
     width: 100%;
@@ -115,10 +119,12 @@ body{
 /* Tabs + Panels */
 .tabs button{
     padding: 10px 18px;
-    border: none;background:none;
+    border: none;
+    background: none;
     border-bottom: 2px solid transparent;
     font-weight: 600;
-    color: var(--ink-dim);cursor:pointer;
+    color: var(--ink-dim);
+    cursor: pointer;
 }
 
 .tabs{
