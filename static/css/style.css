@@ -26,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 12px 48px;
-    background:rgba(5, 7, 20, .65);
+    /* background:rgba(5, 7, 20, .65); */
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
 }
@@ -43,12 +43,13 @@ body{
 }
 
 .nav-title{
+    color: rgba(241, 241, 241, 0.887);
     font-size: 20px;
     font-weight: 700;
 }
 
 .nav-links a{
-    color: var(--text);
+    color: rgba(241, 241, 241, 0.887);
     text-decoration: none;
     margin-left: 18px;
     font-size: 14px;
