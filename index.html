@@ -3,15 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De-Icer - Community Safe App</title>
-    <link rel="stylesheet" href="./static/css/phone.css">
-
-    <meta name="description" content="De-Icer helps communities tracka nd respond to immigration enforcement activity.
+    
+    <meta name="description" content="De-Icer helps communities track and respond to immigration enforcement activity.
     Learn more, view screenshots, and get support." />
-
-    <meta property="og:title" content="De-Icer - Track ICE Activity. Protect Each Other!"/>
-    <meta property="description" content="See features, screenshots, and learn how De-Icer supports community safety."/>
-    <meta property="og:image" content="static/images/hero.jpg"/>
-    <meta name="twitter:card" content="summary_large_image"/>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -21,41 +15,49 @@
 <body>
 
     <!-- Header -->
-    <header class="site-header">
-        <div class="container nav">
-            <a class="brand" href="#overview">
-                <img src="static/images/logo.png" alt="De-Icer logo" height="28"/>
-                <span>De-Icer</span>
-            </a>
-            <nav class="top-links" aria-label="Primary">
-                <a href="#overview">Overview</a>
-                <a href="#features">Features</a>
-                <a href="#screens">Screens</a>
-                <a href="#faq">FAQ</a>
-                <a href="#privacy">Privacy</a>
-                <a href="#contact" class="btn btn--primary">Contact</a>        
-            </nav>
-        </div> 
+    <header class="navbar">
+        <div class="nav-left">
+            <img src="static/images/logo.png" alt="De-Icer logo" class="nav-logo" height="28"/>
+            <span class = "nav-title">De-Icer</span>
+        </div>             
+        
+        <nav class="nav-links">
+            <a href="#overview">Overview</a>
+            <a href="#features">Features</a>
+            <a href="#screens">Screens</a>
+            <a href="#faq">FAQ</a>
+            <a href="#privacy">Privacy</a>
+            <a href="#contact" class="btn btn--primary">Contact</a>        
+        </nav>
     </header>
 
     <!-- Hero -->
-    <section class="hero">
-        <div class="hero-bg" role="img" aria-label="De-Icer hero background"></div>
-        <div class="container hero-inner">
+    <section class="overview">
+        <div class="background"></div>
+
+        <div class="hero-inner">
             <div class="hero-copy">
-                <h1>Track ICE activity. Protect Each Other.</h1>
-                <p>De-Icer helps communities document incidents, learn rights during encounters, 
-                    and connect with rapid-response and legal support
+                <h1>Community Safety App</h1>
+                <p>De-Icer helps communities document ICE encounters, learn their rights, 
+                    and connect with rapid-response and legal support - all in one app.
                 </p>
+
                 <div class="cta">
-                    <a href="#features" class="btn btn--primary">Explore Features</a>
-                    <a href="#screens" class="btn btn--ghost">View Screens</a>
+                    <a href="#download" class="btn btn--primary">Get De-Icer</a>
+                    <a href="#video" class="btn btn--ghost">Watch Tutorial</a>
                 </div>
             </div>
-            <div class="hero-phone">
-                <!-- alt="De-Icer app preview on iPhone" -->
-                <video class="hero-video" width="420" height="240" src="static/video/tutorial.mp4" muted loop playsinline controls>
-                    Sorry, your browser doesn't support embedded videos. </video>
+
+            <!-- Visual / Video -->
+            <div class="hero-media">
+                <video 
+                    class="hero-video" 
+                    width="420" 
+                    height="240" 
+                    src="static/video/tutorial.mp4" 
+                    muted loop playsinline controls>
+                    Sorry, your browser doesn't support embedded videos. 
+                </video>
             </div>
         </div>
     </section>
