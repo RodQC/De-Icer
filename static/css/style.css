@@ -326,3 +326,31 @@ body{
     font-size: 15px;
     color: var(--muted);
 }
+
+/* Footer */
+
+.footer{
+    background: #050714;
+    border-top: 1px solid var(--line);
+}
+
+.inner-footer{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.footer-links a{
+    color: var(--muted);
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.footer-links a:hover{
+    color: var(--text);
+}
