@@ -94,7 +94,7 @@ body{
     text-transform: uppercase;
     color: var(--accent);
     letter-spacing: 0.08em;
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
@@ -106,7 +106,7 @@ body{
 
 .hero-sub{
     color: var(--muted);
-    font-size: 15px;
+    font-size: 18px;
     max-width: 460px;
 }
 
@@ -213,8 +213,8 @@ body{
 
 .section-sub{
     color: var(--muted);
-    font-size: 14px;
-    max-width: 520px;
+    font-size: 18px;
+    max-width: 900px;
     margin-bottom: 24px;
 }
 
