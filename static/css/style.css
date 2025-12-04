@@ -54,7 +54,7 @@ body{
     color: var(--text);
     text-decoration: none;
     margin-left: 18px;
-    font-size: 14px;
+    font-size: 18px;
     opacity: 0.85;
 }
 
@@ -239,7 +239,7 @@ body{
 }
 
 .feature-card p{
-    font-size: 14px;
+    font-size: 16px;
     color: var(--muted);
 }
 
@@ -341,7 +341,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 16px;
     color: var(--muted);
 }
 
