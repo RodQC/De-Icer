@@ -421,3 +421,20 @@ body{
 .footer-links a:hover{
     color: var(--text);
 }
+
+/* Mobile responsive download section */
+@media (max-width: 768px){
+    .download-inner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .signup-form{
+        justify-content: center;
+    }
+
+    .badges{
+        width: 100%;
+        align-items: center;
+    }
+}
