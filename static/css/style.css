@@ -61,6 +61,50 @@ body{
     opacity: 1;
 }
 
+/* Mobile responsive navbar */
+@media (max-width: 768px){
+    .navbar{
+        padding: 12px 20px;
+    }
+
+    .nav-title{
+        font-size: 18px;
+    }
+
+    .nav-logo{
+        width: 28px;
+        height: 28px;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .nav-links a{
+        margin-left: 0;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px){
+    .navbar{
+        padding: 10px 16px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-links a{
+        font-size: 14px;
+    }
+}
+
 /* hero */
 .hero{
     position: relative;
@@ -240,6 +284,21 @@ body{
 .feature-card p{
     font-size: 16px;
     color: var(--muted);
+}
+
+/* Mobile responsive feature cards */
+@media (max-width: 768px){
+    .feature-grid{
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .feature-grid{
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 16px;
+    }
 }
 
 /* Tutorial Video */
