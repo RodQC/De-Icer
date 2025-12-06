@@ -337,6 +337,53 @@ body{
     color: var(--muted);
 }
 
+/* Team Section */
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 18px;
+    margin-bottom: 24px;
+}
+
+.team-card{
+    background: var(--card);
+    padding: 16px 18px;
+    border-radius: 18px;
+    border: 1px solid var(--line);
+    text-align: left;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, .45);
+}
+
+.team-card h3{
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.team-card p{
+    color: var(--muted);
+    font-size: 14px;
+
+}
+
+.contact-box{
+    margin-top: 16px;
+    text-align: center;
+    color: #f5f7ff;
+}
+
+.contact-box{
+    margin-bottom: 10px;
+    font-size: 15px;
+/* Mobile responsive screen cards */
+@media (max-width: 768px){
+    .screens-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+}
+
 /* Download Section */
 
 .download-inner{
