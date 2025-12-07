@@ -378,6 +378,23 @@ body{
     font-size: 15px;
 }
 
+/* Evaluation Summary */
+
+.evaluation-points{
+    margin-top: 18px;
+    color: #b9c3d9;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.evaluation-points li{
+    margin-bottom: 10px;
+}
+
+.evaluation-points strong{
+    color: var(--text);
+}
+
 /* Mobile responsive screen cards */
 @media (max-width: 768px){
     .screens-grid{
