@@ -221,6 +221,9 @@ body{
     .hero-phone{
         max-width: 260px;
     }
+    .hero-cta{
+        justify-content: center;
+    }
 }
 
 /* Sections */
