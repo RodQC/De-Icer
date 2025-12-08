@@ -164,7 +164,7 @@ body{
     display: inline-block;
     padding: 12px 24px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     text-decoration: none;
     border: 1px solid transparent;
@@ -220,6 +220,9 @@ body{
     }
     .hero-phone{
         max-width: 260px;
+    }
+    .hero-cta{
+        justify-content: center;
     }
 }
 
@@ -404,29 +407,38 @@ body{
     border: 1px solid var(--line);
     text-align: left;
     box-shadow: 0 14px 40px rgba(0, 0, 0, .45);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .team-card h3{
     margin-bottom: 6px;
     font-size: 18px;
     color: var(--text);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .team-card p{
     color: var(--muted);
     font-size: 14px;
-
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .contact-box{
-    margin-top: 16px;
+    margin-top: 32px;
     text-align: center;
-    color: #f5f7ff;
+    padding: 20px 24px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-box{
-    margin-bottom: 10px;
-    font-size: 15px;
+.contact-box p{
+    color: var(--muted);
+    font-size: 16px;
+    margin-bottom: 14px;
 }
 
 /* Evaluation Summary */
@@ -435,7 +447,7 @@ body{
     margin-top: 18px;
     color: #b9c3d9;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .evaluation-points li{
@@ -451,6 +463,18 @@ body{
     .screens-grid{
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 14px;
+    }
+
+    .team-grid{
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .team-grid{
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 16px;
     }
 }
 
