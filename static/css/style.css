@@ -253,6 +253,45 @@ body{
     margin-bottom: 24px;
 }
 
+/* Primary Users / Audience Section */
+
+.audience-section{
+    padding: 40px 0 36px;
+    border-top: 1px solid var(--line);
+    background: linear-gradient(to bottom, rgba(4, 8, 18, 0.92), rgba(4, 8, 18, 1));
+    backdrop-filter: blur(10px);
+}
+
+.audience-inner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.target-list{
+    list-style: none;
+    margin: 16px 0 0;
+    padding-left: 0;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.target-list li{
+    position: relative;
+    padding-left: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.target-list li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 5;
+    color: var(--accent);
+    font-size: 18px;
+    line-height: 1;
+}
+
 /* Features Decoration */
 .feature-grid{
     display: grid;
@@ -337,8 +376,20 @@ body{
     color: var(--muted);
 }
 
-/* Team Section */
+/* Prototype */
+.figma-link{
+    display: inline-block;
+    margin-top: 4px;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+}
 
+.figma-link:hover{
+    text-decoration: underline;
+}
+
+/* Team Section */
 .team-grid{
     display: grid;
     grid-template-columns: repeat(3, minmax(0,1fr));
